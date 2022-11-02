@@ -1,0 +1,29 @@
+Hello.
+
+Here is your first assignment for this OOP course:
+Develop a class Point that models a point in a plan (2D).
+Instance variable: x, y : int (point coordinates)
+Method:
+ - constructor
+- get() methods
+- set() methods
+- distance() that has another Point p as parameter and returns the distance between 
+point p and the current point: public double distance(Point p)
+
+
+Develop another class Test that has a main method in which we read N Point objects 
+from the keybord an save them in an array  (vector) of Point: 
+Point p[];
+Compute which is the minimum distance between two points from the vector.
+Which is the complexity of your algorithm ? O( ? )
+
+Write also a method in Test class which has the array of Point as parameter and returns true
+if all the points in the array are different (there are no two equal( i.e. same coordinates)
+ points in the vector).
+
+
+Send this homework, on my email, in one week.
+
+
+Greetings !
+prof. Alexandru Ene
