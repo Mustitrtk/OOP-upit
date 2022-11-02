@@ -20,7 +20,7 @@ public class HomeworkDistance {
 
             p.set(coordinats[j][0], coordinats[j][1]);
             
-            System.out.println(p.distance(p));
+            System.out.println("Distance from origin : "+p.distance(p));
         }
 
         sc.close();

@@ -25,7 +25,7 @@ public class Homework {
             p.set(coordinats[i][0], coordinats[i][1]);
             p1.set(coordinats[i+1][0], coordinats[i+1][1]);
             
-            System.out.println(p.distance(p, p1));
+            System.out.println("Distance : "+p.distance(p, p1));
         }
 
         sc.close();
