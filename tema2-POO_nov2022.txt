@@ -1,0 +1,32 @@
+Problem 1
+We repeatedly read from the keyboard integer numbers in an ArrayList structure.
+The numbers are read until we input -1.
+Traverse the ArrayList object (use get() method) and calculate if the numbers from the ArrayList are in a growing order.
+
+ 
+Exemple:
+nr=3
+nr=30
+nr=40
+nr=-1
+
+Answer: Yes, they are in a growing order.
+
+Problem 2
+There is the text file one.txt that contains a few lines of text.
+Construct the text file two.txt that contains the same lines from the file one.txt, but each line is numbered, like in the following example.
+
+Exemple:
+If the file one.txt has the following 4 text lines:
+mar
+para 
+kiwi
+pruna
+
+Than the file two.txt that has to be created will be:
+1. mar
+2. para
+3. kiwi
+4. pruna
+
+Use BufferedReader and BufferedWriter Java classes , for the two text files.
